@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<script defer async type="text/javascript" src="analytics.js"></script>
+<meta name="google-site-verification" content="X-3H4ukADKWTAjtnFzrBSrE5em76bhhH6Cu5buB5qaw" />
+<meta charset="UTF-8" />
+<meta name="robots" content="index,follow,all" />
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<title>Comparateur de Météo : MétéOverview</title>
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="stylesheet" href="style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="Site de météorologie vous permettant d'avoir une vue d'ensemble sur les prévisions de votre ville donnés par plusieurs sites spécialisés dans la météo"/>
+<link rel="canonical" href="http://meteoverview.fr/" />
+<meta name="keywords" content="comparateur de meteo, comparateur de météo, météo en france, prévisions météorologiques, meteoverview">
+<meta name="author" content="Vincent MAFFET">
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+<div id="header">
+	<h1>MétéOverview, Comparateur de Météo</h1>
+</div>
+<div id="logo">
+	<a href="index.html"><img src="images/logo.png" alt="Logo MétéOverview" title="Accueil" height="115" width="115" /></a>
+</div>
+</br>
+
+<div id="recherche">
+
+<h2>Cherchez votre ville ! </h2>
+<script language="JavaScript"> 
+function ChangeUrl(formulaire) 
+   { 
+   if (formulaire.ListeUrl.selectedIndex != 0) 
+      { 
+     var url ; 
+     url = formulaire.ListeUrl.options[formulaire.ListeUrl.selectedIndex].value; 
+     window.open(url,'_parent'); 
+       } 
+   } 
+</script> 
+<FORM > 
+<SELECT NAME="ListeUrl" size="1" onChange="ChangeUrl(this.form)" > 
+<OPTION SELECTED VALUE="">Quel temps fait-il à ...</option> 
+		<option value="agen.html">Agen</option>
+		<option value="ajaccio.html">Ajaccio</option>
+		<option value="albertville.html">Albertville</option>
+		<option value="albi.html">Albi</option>
+		<option value="alencon.html">Alençon</option>
+		<option value="amiens.html">Amiens</option>
+		<option value="angers.html">Angers</option>
+		<option value="angouleme.html">Angoulème</option>
+		<option value="annecy.html">Annecy</option>
+		<option value="arras.html">Arras</option>
+		<option value="auch.html">Auch</option>
+		<option value="aurillac.html">Aurillac</option>
+		<option value="auxerre.html">Auxerre</option>
+		<option value="avignon.html">Avignon</option>
+		<option value="barleduc.html">Bar-le-Duc</option>
+		<option value="basseterre.html">Basse-Terre</option>
+		<option value="bastia.html">Bastia</option>
+		<option value="beauvais.html">Beauvais</option>
+		<option value="belfort.html">Belfort</option>
+		<option value="besancon.html">Besançon</option>
+		<option value="blois.html">Blois</option>
+		<option value="bobigny.html">Bobigny</option>
+		<option value="bordeaux.html">Bordeaux</option>
+		<option value="bourgenbresse.html">Bourg-en-Bresse</option>
+		<option value="bourges.html">Bourges</option>
+		<option value="caen.html">Caen</option>
+		<option value="cahors.html">Cahors</option>
+		<option value="carcassonne.html">Carcassonne</option>
+		<option value="cayenne.html">Cayenne</option>
+		<option value="chalonsenchampagne.html">Châlons-en-Champagne</option>
+		<option value="chambery.html">Chambéry</option>
+		<option value="charlevillemezieres.html">Charleville-Mézières</option>
+		<option value="chartres.html">Chartres</option>
+		<option value="chateauroux.html">Châteauroux</option>
+		<option value="chaumont.html">Chaumont</option>
+		<option value="clermontferrand.html">Clermont-Ferrand</option>
+		<option value="colmar.html">Colmar</option>
+		<option value="creteil.html">Créteil</option>
+		<option value="dignelesbains.html">Digne-les-Bains</option>
+		<option value="dijon.html">Dijon</option>
+		<option value="epinal.html">Épinal</option>
+		<option value="evreux.html">Évreux</option>
+		<option value="evry.html">Évry</option>
+		<option value="foix.html">Foix</option>
+		<option value="fortdefrance.html">Fort-de-France</option>
+		<option value="gap.html">Gap</option>
+		<option value="grenoble.html">Grenoble</option>
+		<option value="gueret.html">Guéret</option>
+		<option value="larochesuryon.html">La Roche-sur-Yon</option>
+		<option value="larochelle.html">La Rochelle</option>
+		<option value="laon.html">Laon</option>
+		<option value="laval.html">Laval</option>
+		<option value="lemans.html">Le Mans</option>
+		<option value="lepuyenvelay.html">Le Puy-en-Velay</option>
+		<option value="lille.html">Lille</option>
+		<option value="limoges.html">Limoges</option>
+		<option value="lonslesaunier.html">Lons-le-Saunier</option>
+		<option value="lyon.html">Lyon</option>
+		<option value="macon.html">Mâcon</option>
+		<option value="mamoudzou.html">Mamoudzou</option>
+		<option value="marseille.html">Marseille</option>
+		<option value="melun.html">Melun</option>
+		<option value="mende.html">Mende</option>
+		<option value="metz.html">Metz</option>
+		<option value="montdemarsan.html">Mont-de-Marsan</option>
+		<option value="montauban.html">Montauban</option>
+		<option value="montpellier.html">Montpellier</option>
+		<option value="moulins.html">Moulins</option>
+		<option value="nancy.html">Nancy</option>
+		<option value="nanterre.html">Nanterre</option> 
+		<option value="nantes.html">Nantes</option>
+		<option value="nevers.html">Nevers</option> 
+		<option value="nice.html">Nice</option>
+		<option value="nimes.html">Nîmes</option>
+		<option value="niort.html">Niort</option>
+		<option value="orleans.html">Orléans</option>
+		<option value="paris.html">Paris</option>
+		<option value="pau.html">Pau</option>
+		<option value="perigueux.html">Périgueux</option>
+		<option value="perpignan.html">Perpignan</option>
+		<option value="poitiers.html">Poitiers</option>
+		<option value="pontoise.html">Pontoise</option>
+		<option value="privas.html">Privas</option>
+		<option value="quimper.html">Quimper</option>
+		<option value="rennes.html">Rennes</option>
+		<option value="rodez.html">Rodez</option>
+		<option value="rouen.html">Rouen</option>
+		<option value="saintbrieuc.html">Saint-Brieuc</option>
+		<option value="saintdenis.html">Saint-Denis</option>
+		<option value="saintetienne.html">Saint-Étienne</option>
+		<option value="saintlo.html">Saint-Lô</option>
+		<option value="strasbourg.html">Strasbourg</option>
+		<option value="tarbes.html">Tarbes</option>
+		<option value="toulon.html">Toulon</option>
+		<option value="toulouse.html">Toulouse</option>
+		<option value="tours.html">Tours</option>
+		<option value="troyes.html">Troyes</option>
+		<option value="tulle.html">Tulle</option>
+		<option value="valence.html">Valence</option>
+		<option value="vannes.html">Vannes</option>
+		<option value="versailles.html">Versailles</option>
+		<option value="vesoul.html">Vesoul</option>			
+</SELECT> 
+</FORM>
+</br>
+</div>
+
+<div id="intro">
+<p>Bienvenue sur le site MétéOverview, le premier site comparateur de météo. Nous vous proposons d'avoir une vue d'ensemble sur les prévisions météorologiques en montrant sur une seule page les prévisions de 6 sites spécialisés dans la météorologie (Météo France, meteoblue, Météo Villes ou meteorama selon la ville, tameteo, Météocity et ta-meteo). 
+Nous avons actuellement des prévisions pour <span style="color:#3366CC;">102</span> villes de France métropolitaine et d'outre-mer.</p>
+<p>S'il manque votre ville, ou si vous avez repéré un problème, envoyez nous un mail à <span style="color:#3366CC; ">contact@meteoverview.fr</span> et nous l'ajouterons dès que possible.</p>
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="fr" data-size="large" rel="nofollow">Tweeter</a><div class="g-plusone" data-size="tall"></div> <div class="fb-like" data-width="600" data-layout="button_count" data-action="recommend" data-show-faces="false" data-send="true"></div>
+<script defer async type="text/javascript" src="share.js"></script>
+<p>~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+<h3>Qu'est ce qu'un <strong>comparateur de météo</strong> ?</h3>
+<p>C'est un nouveau concept qui permet de connaître d'un coup d'&oelig;il les différentes prévisions données par plusieurs sites de météo. De cette façon, vous pouvez comparer les differents avis de professionnels afin d'avoir la meilleure idée possible du temps qu'il fera.</p>
+<p>~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+<h3>Comment s'en servir ?</h3>
+<p>C'est tout simple, il vous suffit de sélectionner dans le menu déroulant votre ville, vous pouvez taper sur votre clavier les premières lettres de votre ville une fois dans le menu pour trouver plus facilement. Vous serez ensuite redirigés vers les prévisions de votre ville.</p>
+<p>De plus, cliquer sur le logo vous ramènera sur la page d'acceuil.</p>
+<p>~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+<p>MétéOverview ne pourra en aucun cas être tenu pour responsable de dommage résultant d'une impossibilité d'utilisation, d'accès, d'interprétation ou d'utilisation des informations contenues sur ce site.</p>
+<h6>Webmaster : <a href="https://plus.google.com/u/0/110247797277043883936?rel=author">Vincent MAFFET</a></h6>
+<h6>Spécial Merci à Akiya R., Charlotte D., Diane M. et Nicolas K. pour leur aide!</h6>
+</div>
+
+<div id="pubs">
+	<div id="pub1">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Pub1 -->
+		<ins class="adsbygoogle"
+			 style="display:inline-block;width:336px;height:280px"
+			 data-ad-client="ca-pub-7312958256685662"
+			 data-ad-slot="6514280434"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	</div>
+	<div id="pub2">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- Pub2 -->
+		<ins class="adsbygoogle"
+			 style="display:inline-block;width:336px;height:280px"
+			 data-ad-client="ca-pub-7312958256685662"
+			 data-ad-slot="7991013633"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	</div>
+</div>
+
+<div id="vide"></div>
+<div id="footer">
+MétéOverview. 2014
+</div>
+
+</html>

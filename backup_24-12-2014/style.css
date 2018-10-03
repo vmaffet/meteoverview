@@ -1,0 +1,189 @@
+#Prévisions{
+	border:6px solid #575757;
+	border-radius:50px;
+	background-color:rgba(151,151,151,0.875);
+	position:relative;
+	text-align:center;
+	top:240px;
+	width:1350px;
+	margin:auto;
+	font-family: "Lobster", Verdana, Arial;
+}
+#recherche{ 
+	border:10px solid #3333CC;
+	background-color: #3366CC;
+	border-radius:20px;
+	color:white;
+	position:absolute;
+	top:275px;
+	width:50%;
+	height:225px;
+	left:25%;
+	font-family: "CaviarDreams", Verdana, Arial;
+}
+#intro{ 
+	position:relative;
+	top:650px;
+	background-color: rgba(250,250,250,0.75);
+	width:75%;
+	left:12.5%;
+	font-family: "Lobster", Verdana, Arial;
+	border:4px solid black;
+	border-radius:10px;
+}
+#footer{
+	background-color:black;
+	color:white;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	padding:3px;
+	font-family: "CaviarDreams", Verdana, Arial;
+}
+#header{
+	height:150px;
+	width:100vw;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:black;
+	color:white;
+	font-family: "CaviarDreams", Verdana, Arial;
+}
+#vide{	
+	height:150px;
+	width:100%;
+	position:relative;
+	top:430px;
+}
+#vide2{	
+	height:150px;
+	width:100%;
+	position:relative;
+}
+#ville{ 
+	position:relative;
+	top:200px;
+	width:625px;
+	height:120px;
+	margin:auto;
+	text-align:center;
+	color:#EFEFEF;
+	border-radius:20px;
+	font-family: "Souses", Verdana, Arial;
+	letter-spacing: 2px;
+	border:8px solid #3333CC;
+	background-color:#3366CC;
+}
+#logo{	
+	position:absolute;
+	top:18px;
+	left:30px;
+}	
+#pubs {
+	position:relative;
+	margin:auto;
+	width:772px;
+}
+#pub1 {
+	position:relative;
+	top:720px;
+	left:0px;
+	width:336px;
+	height:280px;
+}	
+#pub2 {
+	position:relative;
+	top:440px;
+	left:436px;
+	width:336px;
+	height:280px;
+}
+#pub1bis {
+	position:relative;
+	top:287px;
+	left:0px;
+	width:336px;
+	height:280px;
+}	
+#pub2bis {
+	position:relative;
+	top:7px;
+	left:436px;
+	width:336px;
+	height:280px;
+}
+#pub3 {
+	position:relative;
+	top:50px;
+	left:22px;
+	width:728px;
+	height:90px;
+}
+body{
+	background-position:50% 25%;
+	background-attachment:fixed;
+	color:black;
+	text-align:center;
+	font-size:175%;
+	background-image:url(images/ciel.jpg);
+}
+h4{ 
+	text-decoration:underline;
+	font-size:130%;
+}
+p{  
+	text-indent:40px;
+	margin-left:10px;
+	margin-right:10px;
+}
+form{
+	font-size:152%;
+}
+select{
+	border:2px solid black;
+	border-radius:20px;
+	padding-left:10%;
+	padding-right:10%;
+	font-size:21px;
+	height:50px;
+	font-family:CaviarDreams;
+	background-color:rgba(250,250,250,0.85);
+}
+table{
+	text-align:center	;
+}
+@font-face{
+    font-family : "Lobster";
+
+    /* pour IE */
+    src : url('fonts/lobster.eot');
+
+    /* pour les autres */
+    src : url('fonts/lobster.woff') format('woff'),
+          url('fonts/lobster.svg#abcd') format('svg'),
+          url('fonts/lobster.ttf') format('truetype');
+}
+@font-face{
+    font-family : "CaviarDreams";
+
+    /* pour IE */
+    src : url('fonts/CaviarDreams_Bold.eot');
+
+    /* pour les autres */
+    src : url('fonts/CaviarDreams_Bold.woff') format('woff'),
+          url('fonts/CaviarDreams_Bold.svg#abcd') format('svg'),
+          url('fonts/CaviarDreams_Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family : "Souses";
+
+    /* pour IE */
+    src : url('fonts/souses.eot');
+
+    /* pour les autres */
+    src : url('fonts/souses.woff') format('woff'),
+          url('fonts/souses.svg#abcd') format('svg'),
+          url('fonts/souses.ttf') format('truetype');
+}
